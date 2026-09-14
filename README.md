@@ -59,3 +59,6 @@ Enable HTML Bootstrap Editor if it's not already active.
 
 ## Showcase
 https://github.com/SN-RECIT-formation-a-distance/html-bootstrap-editor-showcase
+
+## Marketplace Moodle
+This plugin is also available on the **Moodle Plugin Marketplace**: [https://marketplace.moodle.com/plugins/3269](https://marketplace.moodle.com/plugins/3269)
