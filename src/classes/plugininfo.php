@@ -23,8 +23,6 @@ use editor_tiny\plugin_with_buttons;
 use editor_tiny\plugin_with_configuration;
 use editor_tiny\plugin_with_menuitems;
 
-require_once($CFG->dirroot . '/admin/tool/htmlbootstrapeditor/lib.php');
-
 /**
  * Tiny htmlbootstrapeditor plugin.
  *
@@ -121,7 +119,9 @@ class plugininfo extends plugin implements plugin_with_buttons, plugin_with_menu
         ?\editor_tiny\editor $editor = null
     ): array {
 
-        global $PAGE;
+        global $CFG, $PAGE;
+
+        require_once($CFG->dirroot . '/admin/tool/htmlbootstrapeditor/lib.php');
 
         $PAGE->requires->strings_for_js(array('pluginname'), 'tiny_htmlbootstrapeditor');
         tool_htmlbootstrapeditor_init_settings();

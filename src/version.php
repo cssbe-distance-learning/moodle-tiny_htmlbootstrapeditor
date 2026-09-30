@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Tiny media plugin version details.
+ * Tiny HTML Bootstrap Editor plugin version details.
  *
  * @package    tiny_htmlbootstrapeditor
  * @copyright  2019 RECIT
@@ -24,13 +24,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2026071300;
-$plugin->requires  = 2024071200.00; // Moodle 4.5.0
+$plugin->version   = 2026093000;
+$plugin->requires  = 2025100603.00; // Moodle 5.1.3
 $plugin->component = 'tiny_htmlbootstrapeditor';
-$plugin->release = 'v2.0.0-stable';
-$plugin->supported = [501, 501];      //  Moodle 4.1.x are supported.
-$plugin->maturity = MATURITY_STABLE; // MATURITY_ALPHA, MATURITY_BETA, MATURITY_RC or MATURITY_STABLE
- 
+$plugin->release   = 'v2.0.1-stable';
+$plugin->supported = [501, 501]; // Moodle 5.1.x is supported.
+$plugin->maturity  = MATURITY_STABLE;
+
 $plugin->dependencies = [
-	'tool_htmlbootstrapeditor' => 2026071300
+    'tool_htmlbootstrapeditor' => 2026071300,
 ];
