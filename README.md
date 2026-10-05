@@ -18,7 +18,7 @@ You can install the plugin using either a ZIP release or by cloning the GitHub r
 
 1. **Download the latest release:**
 
-   Go to the [Releases page](https://github.com/SN-RECIT-formation-a-distance/moodle-tiny_htmlbootstrapeditor/releases) and download the latest `.zip` file.
+   Go to the [Releases page](https://github.com/cssbe-distance-learning/moodle-tiny_htmlbootstrapeditor/releases) and download the latest `.zip` file.
 
 2. **Install via Moodle interface:**
 
@@ -41,7 +41,7 @@ You can install the plugin using either a ZIP release or by cloning the GitHub r
    Navigate to the TinyMCE plugin directory inside your Moodle root:
 
    ```bash
-   git clone https://github.com/SN-RECIT-formation-a-distance/moodle-tiny_htmlbootstrapeditor.git
+   git clone https://github.com/cssbe-distance-learning/moodle-tiny_htmlbootstrapeditor.git
    cd moodle-tiny_htmlbootstrapeditor
    cp -r src /path/to/moodle/lib/editor/tiny/plugins/htmlbootstrapeditor
    ```
@@ -58,7 +58,7 @@ Site administration > Plugins > Text editors > TinyMCE editor > Manage Tiny plug
 Enable HTML Bootstrap Editor if it's not already active.
 
 ## Showcase
-https://github.com/SN-RECIT-formation-a-distance/html-bootstrap-editor-showcase
+https://github.com/cssbe-distance-learning/html-bootstrap-editor-showcase
 
 ## Marketplace Moodle
 This plugin is also available on the **Moodle Plugin Marketplace**: [https://marketplace.moodle.com/plugins/3269](https://marketplace.moodle.com/plugins/3269)
